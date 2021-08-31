@@ -41,10 +41,12 @@ Resolve DID
 $ POST http://localhost:3333/api/resolve
 
 ```
+Input
+```json
 {
     "longFormURI": "longFormURI..."
 }
-
+```
 Resolve DID  (light)
 ```
 $ POST http://localhost:3333/api/resolve-light
