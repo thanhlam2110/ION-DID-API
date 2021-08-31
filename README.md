@@ -25,6 +25,7 @@ $ node index.js
 Generate DID  
 ```
 $ POST http://localhost:3333/api/generate
+
 ```json
 {
     "publicKeyId": "publicKeyId...",
@@ -35,8 +36,7 @@ $ POST http://localhost:3333/api/generate
 Resolve DID  
 ```
 $ POST http://localhost:3333/api/resolve
-```
-Body
+```json
 {
     "longFormURI": "longFormURI..."
 }
