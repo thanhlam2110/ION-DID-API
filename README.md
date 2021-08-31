@@ -22,6 +22,7 @@ Run server
 # node index.js
 ```
 Server listen on port 3333
+
 **Check**:
 
 1. Generate DID  
