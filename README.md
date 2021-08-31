@@ -27,6 +27,7 @@ Generate DID
 $ POST http://localhost:3333/api/generate
 
 ```
+Input
 ```json
 {
     "publicKeyId": "publicKeyId...",
