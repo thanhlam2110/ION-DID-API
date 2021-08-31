@@ -22,7 +22,7 @@ $ node index.js
 
 **Check**:
 
-Generate DID  
+1. Generate DID  
 ```
 $ POST http://localhost:3333/api/generate
 
@@ -36,7 +36,7 @@ Input
 }
 ```
 
-Resolve DID  
+2. Resolve DID  
 ```
 $ POST http://localhost:3333/api/resolve
 
@@ -47,11 +47,14 @@ Input
     "longFormURI": "longFormURI..."
 }
 ```
-Resolve DID  (light)
+3. Resolve DID  (light)
 ```
 $ POST http://localhost:3333/api/resolve-light
 
 ```
+Input
+```json
 {
     "longFormURI": "longFormURI..."
 }
+```
