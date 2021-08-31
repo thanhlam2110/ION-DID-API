@@ -36,13 +36,17 @@ $ POST http://localhost:3333/api/generate
 Resolve DID  
 ```
 $ POST http://localhost:3333/api/resolve
-```{
+
+```
+{
     "longFormURI": "longFormURI..."
 }
 
-Resolve DID(light)
+Resolve DID  (light)
 ```
 $ POST http://localhost:3333/api/resolve-light
-```{
+
+```
+{
     "longFormURI": "longFormURI..."
 }
