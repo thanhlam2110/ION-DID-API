@@ -2,19 +2,21 @@
 Node v16.8.0
 
 **Install**:
-
+```
+# curl -sL https://deb.nodesource.com/setup_16.x | sudo bash -
+```
+```
+# apt -y install nodejs
+```
 ```
 # apt install build-essential
 ```
-
 ```
 # cd ION-DID-API
 ```
-
 ```
 $ npm install
 ```
-
 Run server
 ```
 $ node index.js
