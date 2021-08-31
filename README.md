@@ -1,28 +1,31 @@
-# Môi trường 
+# Environment 
 Node v16.8.0
 
-**Cài đặt**:
+**Install**:
 
 ```
-$ cd ino
+# apt install build-essential
+```
+
+```
+# cd ION-DID-API
 ```
 
 ```
 $ npm install
 ```
 
-Để start server chạy:
+Run server
 ```
 $ node index.js
 ```
 
-**Kiểm tra**:
+**Check**:
 
 Generate DID  
 ```
 $ POST http://localhost:3333/api/generate
-```
-Body
+```json
 {
     "publicKeyId": "publicKeyId...",
     "serviceId": "serviceId...",
@@ -41,8 +44,7 @@ Body
 Resolve DID  (light)
 ```
 $ POST http://localhost:3333/api/resolve-light
-```
-Body
+```json
 {
     "longFormURI": "longFormURI..."
 }
