@@ -15,13 +15,13 @@ Node v16.8.0
 # cd ION-DID-API
 ```
 ```
-$ npm install
+# npm install
 ```
 Run server
 ```
-$ node index.js
+# node index.js
 ```
-
+Server listen on port 3333
 **Check**:
 
 1. Generate DID  
